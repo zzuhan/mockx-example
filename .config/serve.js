@@ -1,0 +1,1 @@
+var config_dir = "./.config"; var server = require("plug-base"); server.root("src"); server.config(config_dir); var mockx = require("mockx"); server.plug(mockx).listen(80, 443);
