@@ -1,14 +1,10 @@
 {
   "name": "mockx-example",
-  "version": "0.0.1",
   "author": "wencheng.hwc",
   "devDependencies": {
-    "mockx": "*",
-    "plug-base": "~0.8.4"
+    "mockx-cli": "*"
   },
-  "dependencies": {
-    "node-notifier": "~4.3.1",
-    "plug-base": "^0.9.7",
-    "simple-git": "~1.14.0"
+  "scripts": {
+  	"server": "cd .config && sudo mockx"
   }
 }
